@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Feature X — Release Communication Incident</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="top">
+  <div class="logo"><span class="hubdot"></span>growth<span class="muted">/</span>feature-x</div>
+  <div class="navtabs">
+    <button class="tab active" data-screen="hubspot1">01 · Hour 1 / HubSpot</button>
+    <button class="tab" data-screen="landing">02 · Landing Page</button>
+    <button class="tab" data-screen="correction">03 · Corrected Page</button>
+    <button class="tab" data-screen="hubspot2">04 · Next Day / HubSpot</button>
+  </div>
+</nav>
+
+<main>
+<!-- SCREEN 1 -->
+<section id="hubspot1" class="screen active">
+  <div class="screenhead">
+    <div><div class="kicker">FIRST HOUR · CAMPAIGN SNAPSHOT</div><h1>Product update email</h1><p>Feature X was communicated as available now. 5,150 customers received the email.</p></div>
+    <div class="timestamp">Campaign sent<br><strong>Today · 10:02 AM</strong></div>
+  </div>
+
+  <div class="hub-layout">
+    <aside class="sidebar">
+      <div class="side-title">Marketing</div>
+      <div>Dashboard</div><div>Contacts</div><div class="selected">Email</div><div>Forms</div><div>Campaigns</div>
+      <hr><div>Reports</div><div>Settings</div>
+    </aside>
+    <div class="hub-main">
+      <div class="hub-bar"><span>Email performance</span><button class="outline">View in campaigns</button></div>
+      <div class="statrow">
+        <div class="stat"><span>Sent</span><b>5,150</b><small>100% of audience</small></div>
+        <div class="stat"><span>Delivered</span><b>5,098</b><small>99.0%</small></div>
+        <div class="stat"><span>Opened</span><b>2,030</b><small>39.8%</small></div>
+        <div class="stat alertstat"><span>Clicked</span><b>150</b><small>2.9%</small></div>
+      </div>
+      <div class="hub-grid">
+        <div class="panel emailpanel">
+          <div class="paneltop"><span>PRODUCT UPDATE</span><em>Sent</em></div>
+          <h2>Feature X is now available</h2>
+          <p>Meet Feature X, a faster way to turn your operational data into decisions your team can act on.</p>
+          <div class="fake-feature"><span>FEATURE X</span><strong>From signal to action.</strong><small>Automate the work between insight and execution.</small></div>
+          <button class="cta">Available Now</button>
+          <div class="emailfoot">You're receiving this because you're a customer of Acme Cloud.</div>
+        </div>
+        <div class="panel">
+          <div class="paneltop"><span>CLICK ACTIVITY</span><em>Last 24 hours</em></div>
+          <div class="barbox"><div class="bar"><span style="height:12%"></span><span style="height:20%"></span><span style="height:28%"></span><span style="height:35%"></span><span style="height:48%"></span><span style="height:60%"></span><span style="height:75%"></span><span style="height:100%"></span></div><div class="barscale"><span>10 AM</span><span>11 AM</span><span>12 PM</span><span>1 PM</span></div></div>
+          <div class="clickline"><strong>150</strong><span>unique clicks on “Available Now”</span></div>
+          <div class="note">PMM signal: customers are actively trying to access the feature before rollout is complete.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCREEN 2 -->
+<section id="landing" class="screen">
+  <div class="browser">
+    <div class="browserbar"><span class="traffic"></span><span class="traffic"></span><span class="traffic"></span><div class="address">app.acmecloud.com/features/feature-x</div><span>↻</span></div>
+    <div class="saasnav"><div class="acmelogo">ACME<span>cloud</span></div><div>Platform</div><div>Solutions</div><div>Resources</div><div>Pricing</div><button>Book a demo</button></div>
+    <div class="saashero">
+      <div class="producttag">NEW · FEATURE X</div>
+      <h1>Turn operational signals<br>into <i>action.</i></h1>
+      <p>Feature X helps operations teams detect what matters, prioritize the next move, and automate the workflow that follows.</p>
+      <button class="bigcta">Available Now <span>→</span></button>
+      <small>Available to all customers</small>
+    </div>
+    <div class="proof"><span>USED BY TEAMS AT</span><b>northstar</b><b>vertex</b><b>arcadia</b><b>meridian</b></div>
+    <div class="three"><div><strong>01</strong><h3>Detect faster</h3><p>Surface important changes without waiting for manual reports.</p></div><div><strong>02</strong><h3>Prioritize clearly</h3><p>Give teams one view of what needs attention now.</p></div><div><strong>03</strong><h3>Act automatically</h3><p>Trigger the workflow your team already uses.</p></div></div>
+  </div>
+</section>
+
+<!-- SCREEN 3 -->
+<section id="correction" class="screen">
+  <div class="browser corrected">
+    <div class="browserbar"><span class="traffic"></span><span class="traffic"></span><span class="traffic"></span><div class="address">app.acmecloud.com/features/feature-x</div><span>↻</span></div>
+    <div class="announcement"><b>FEATURE X</b> is rolling out gradually. <a>Request early access →</a></div>
+    <div class="saasnav"><div class="acmelogo">ACME<span>cloud</span></div><div>Platform</div><div>Solutions</div><div>Resources</div><div>Pricing</div><button>Book a demo</button></div>
+    <div class="correcthero">
+      <div class="producttag">LIMITED ROLLOUT · FEATURE X</div>
+      <h1>Get early access<br>to Feature X.</h1>
+      <p>Feature X is currently rolling out to a limited group of customers. We're inviting customers to request access as we expand the rollout.</p>
+      <button class="bigcta" id="earlyAccess">Get early access <span>→</span></button>
+      <small>Access is being expanded in stages.</small>
+    </div>
+    <div class="rollout"><div><span class="live"></span><strong>Limited rollout</strong><small>500 customer accounts enabled</small></div><div><strong>1,400</strong><small>customers in access queue</small></div><div><strong>Next</strong><small>We notify you when access is ready</small></div></div>
+  </div>
+  <div class="modal" id="modal">
+    <div class="modalcard">
+      <button class="close" id="close">×</button>
+      <div class="check">✓</div>
+      <div class="kicker">REQUEST RECEIVED</div>
+      <h2>Thank you for your interest in Feature X.</h2>
+      <p>Feature X helps you turn operational signals into action by identifying what matters and triggering the right workflow.</p>
+      <p>The feature is rolling out gradually so we can expand access effectively. <strong>We'll notify you when Feature X is available for your account.</strong></p>
+      <div class="modalmeta"><span>REQUEST STATUS</span><b>Added to early-access queue</b></div>
+      <button class="modalbutton" id="done">Done</button>
+    </div>
+  </div>
+</section>
+
+<!-- SCREEN 4 -->
+<section id="hubspot2" class="screen">
+  <div class="screenhead">
+    <div><div class="kicker">NEXT DAY · ROLLOUT RESPONSE</div><h1>Early-access demand</h1><p>The correction converted confusion into a measurable access queue.</p></div>
+    <div class="timestamp">Reporting window<br><strong>Next day · 9:00 AM</strong></div>
+  </div>
+  <div class="hub-layout">
+    <aside class="sidebar"><div class="side-title">Marketing</div><div>Dashboard</div><div>Contacts</div><div class="selected">Email</div><div>Campaigns</div><hr><div>Reports</div><div>Automation</div></aside>
+    <div class="hub-main">
+      <div class="hub-bar"><span>Feature X · Early access campaign</span><button class="outline">Export report</button></div>
+      <div class="statrow four">
+        <div class="stat"><span>Total clicks</span><b>3,100</b><small>landing page visits</small></div>
+        <div class="stat"><span>Showed interest</span><b>1,900</b><small>early-access requests</small></div>
+        <div class="stat greenstat"><span>Access granted</span><b>500</b><small>limited rollout</small></div>
+        <div class="stat amberstat"><span>In pipeline</span><b>1,400</b><small>queued for access</small></div>
+      </div>
+      <div class="funnel panel">
+        <div class="paneltop"><span>EARLY ACCESS FUNNEL</span><em>Feature X</em></div>
+        <div class="funnelrow"><span>3,100</span><div><b style="width:100%">Clicks</b></div><small>100%</small></div>
+        <div class="funnelrow"><span>1,900</span><div><b style="width:61%">Early-access interest</b></div><small>61.3%</small></div>
+        <div class="funnelrow"><span>500</span><div><b style="width:16%">Access granted</b></div><small>16.1%</small></div>
+        <div class="funnelrow"><span>1,400</span><div><b style="width:45%">Access pipeline</b></div><small>45.2%</small></div>
+      </div>
+      <div class="insight"><strong>PMM readout</strong><span>1,900 customers explicitly asked for access. The incident created a clear demand signal that Product can use to prioritize the next rollout cohorts.</span></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<script>
+document.querySelectorAll('.tab').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.screen).classList.add('active');
+    history.replaceState(null,'','#'+btn.dataset.screen);
+  });
+});
+const modal=document.getElementById('modal');
+document.getElementById('earlyAccess').onclick=()=>modal.classList.add('show');
+document.getElementById('close').onclick=()=>modal.classList.remove('show');
+document.getElementById('done').onclick=()=>modal.classList.remove('show');
+window.addEventListener('load',()=>{
+  const id=location.hash.slice(1);
+  const tab=document.querySelector(`[data-screen="${id}"]`);
+  if(tab) tab.click();
+});
+</script>
+</body>
+</html>
